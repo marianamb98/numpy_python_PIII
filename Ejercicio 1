@@ -11,7 +11,7 @@
 
 
 if __name__ == '__main__':
-    print("Bienvenidos a otra clase de Python")
+    print("Bienvenidos al Ejercicio 1")
     
     # Lambda expression
     # 1)
