@@ -9,7 +9,7 @@
 
 # Ejercicios con lambda
 
-
+import numpy as np
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Python")
     
@@ -20,7 +20,11 @@ if __name__ == '__main__':
 
     # potencia_2 = lambda x:......
     # pot_3 = potencia_2(3)
+    potencia_2 = lambda x: x**2
+    pot_3 = potencia_2(3)
 
+    print('El número 3 elevado al cuadrado es:',pot_3)
+    
     # 2)
     # Utilice la función map para mapear una lambda expression
     # que retorne la potencia de 2 de cada numero en la lista numeros
@@ -35,17 +39,6 @@ if __name__ == '__main__':
     # Lista de numeros
     numeros = [1, -5, 4, 3]
 
-    # numeros_potencia = list(map....)
-
-    # Desarrollo de 1) ***************************
-    
-    potencia_2 = lambda x: x**2
-    pot_3 = potencia_2(3)
-
-    print('El número 3 elevado al cuadrado es:',pot_3)
-
-    # Desarrollo de 2) ***************************
-
     numeros_map = map(potencia_2, numeros)
     numeros_map = list(numeros_map)
 
@@ -55,4 +48,4 @@ if __name__ == '__main__':
 
     print(numeros_lambda)
 
-    print("terminamos")
+    print("Fin del Ejercicio 1")
