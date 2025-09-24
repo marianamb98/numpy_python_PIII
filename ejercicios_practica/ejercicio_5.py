@@ -56,8 +56,9 @@ if __name__ == '__main__':
 
     print('Personal con acceso válido:',personal_valido)
 
-    print("terminamos")
+    print("Ejercicio 5 Finalizado")
 
     lista = [x**2 for x in range(5)]
+
 
     print(lista)
