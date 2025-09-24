@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
     len_string = lambda x: len(x)
    
-    print(len_string('jesus gonzalez')) 
+    print(len_string('belen burgos')) 
 
     # Desarrollo de 2) ***************************
 
@@ -53,4 +53,5 @@ if __name__ == '__main__':
 
     print(palabras_len)
 
-    print("terminamos")
+
+    print("Ejercicio 2 Finalizado")
