@@ -65,4 +65,5 @@ if __name__ == '__main__':
 
     print(dias_mes)
 
-    print("terminamos")
+
+    print("Ejercicio 3 Finalizado")
