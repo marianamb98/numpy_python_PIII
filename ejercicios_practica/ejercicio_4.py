@@ -45,4 +45,5 @@ if __name__ == '__main__':
 
     print('isdigit lo toma como un strings y no como un nro.negativo')
 
-    print("terminamos")
+
+    print("Ejercicio 4 Finalizado")
